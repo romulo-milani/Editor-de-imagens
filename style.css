@@ -17,5 +17,21 @@ input {
 
 img {
     width: auto;
-    height: 80vh;
+    height: 70vh;
+}
+
+:root {
+    --base: #0077ff;
+    --spacing: 10px;
+    --blur: 2px
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
 }
